@@ -1,0 +1,142 @@
+/**
+author Tyler Mulholland 
+Student Number: 000287743 
+Date: November 21st 2018 
+Description: Assuignment 4 style page
+ 
+I, Tyler Mulholland, student number 000287743, certify that all code submitted is my own work; that I have not copied it from any other source. I also certify that I have not allowed my work to be copied by others.
+
+File description: This is the main CSS file which handles styling for assignment 4.
+*/
+ 
+.gameCanvas {
+    border: 8px solid #382B68;
+    position:absolute;
+    left:0;
+    right:0;
+    margin:auto;
+    margin-bottom: 200px;
+}
+
+
+.playButton {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 35pt;
+    font-weight: 900;
+    color: #B5FFF8;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 7px;
+    background-color: #382B68;
+    border: 5px solid #B5FFF8;
+    outline-style: none;
+    border-radius: 5px;
+    position:absolute;
+    display:none;
+    cursor: pointer; 
+}
+
+.playButton:hover {
+    background-color: rgba(0,0,0,0);
+}
+
+.leaderButton {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 15pt;
+    font-weight: 900;
+    color: #B5FFF8;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 7px;
+    background-color: #382B68;
+    border: 4px solid #B5FFF8;
+    outline-style: none;
+    border-radius: 5px;
+    position:absolute;
+    display:none;
+    cursor: pointer; 
+}
+
+.leaderButton:hover {
+    background-color: rgba(0,0,0,0);
+}
+
+.mainScreenShip {
+    position:absolute;
+    display:none;
+}
+
+button {
+    cursor: pointer; 
+}
+
+
+
+.backButton {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 15pt;
+    font-weight: 900;
+    color: #B5FFF8;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 7px;
+    background-color: #382B68;
+    border: 4px solid #B5FFF8;
+    outline-style: none;
+    border-radius: 5px;
+    position:absolute;
+    display:none;
+    cursor: pointer;
+}
+
+
+
+.instructions {
+    margin-top: 650px;
+    text-align: center;
+    background-color: #B5FFF8;
+    padding: 10px;
+    width: auto;
+    border: 5px solid #382B68;
+    color: #382B68;
+    font-family: Verdana, Geneva, sans-serif;
+    font-style: italic;
+    font-size: 15pt;
+}
+
+.playerName {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 20pt;
+    font-weight: 900;
+    color: #B5FFF8;
+    padding-left: 10px;
+    background-color: #382B68;
+    border: 5px solid #B5FFF8;
+    outline-style: none;
+    border-radius: 5px;
+    position:absolute;
+    display: none;
+    cursor: pointer; 
+}
+
+
+.noNameErrorMessage {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 20pt;
+    font-weight: 900;
+    color: #B5FFF8;
+    background-color: #382B68;
+    border: 5px solid #B5FFF8;
+    outline-style: none;
+    border-radius: 5px;
+    position:absolute;
+    display: none;
+    width: 500px;
+    height: auto;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}

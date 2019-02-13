@@ -1,0 +1,330 @@
+/**
+author Tyler Mulholland 
+Student Number: 000287743 
+Date: September 18th 2018 
+Description: Splash Page Style File
+
+I, Tyler Mulholland, student number 000287743, certify that all code submitted is my own work; that I have not copied it from any other source. I also certify that I have not allowed my work to be copied by others.
+
+File description: This is the main CSS file which handles styling.
+*/
+ 
+.titleColourBar {
+    background-color: #382B68;
+    width: 100%;
+    margin-left: -11px;
+    padding-right: 17.9px;
+    margin-top: -10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #B5FFF8;
+    box-shadow: 1px 2px #888888;
+    display: table;
+}
+
+h1 {
+    color: #B5FFF8;
+    vertical-align: middle;
+    padding-left: 10px;
+    padding-top: 4px;
+    font-family: Verdana, Geneva, sans-serif;
+    font-style: italic;
+    font-size: 26pt;
+    margin-top: -1px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+h2 {
+    color: #B5FFF8;
+    font-family: Verdana, Geneva, sans-serif;
+    text-align: center;
+}
+
+body {
+    background-color: #6EA4BF;
+    margin-bottom: 150px;
+}
+
+
+
+.menuButton {
+    padding-top: 5px;
+    display: inline-block;
+    border-collapse: collapse;
+    height: 100%;
+    width: 100%;
+    font-family: Futura, sans-serif;
+    color: #382B68;
+}
+
+.menuButton:hover{
+    background-color: #382B68;
+    color: #D3FFF9;
+    transform:scale(1.4, 1.4);
+    border: 2px solid #D3FFF9;
+    position:static;
+    margin-top: -5px;
+    transition-duration: 0.3s;
+}
+
+.selectedMenuButton{
+    padding-top: 5px;
+    display: inline-block;
+    border-collapse: collapse;
+    height: 100%;
+    width: 100%;
+    background-color: #382B68;
+    color: #D3FFF9;
+    font-family: Futura, sans-serif;
+}
+
+.selectedMenuButton:hover{
+    transform:scale(1.4, 1.4);
+    position:static;
+    margin-top: -5px;
+    transition-duration: 0.3s;
+    border: 2px solid #D3FFF9;
+}
+
+th {
+    border: 3px solid #382B68;
+}
+
+.menuTable {
+    width: 100%;
+    margin-left: -9px;
+    margin-bottom: 40px;
+    border-collapse:collapse ;
+    table-layout: fixed;
+    position: absolute;
+}
+
+a {
+    text-decoration: none;
+}
+
+.assignmentTitleBar {
+    background-color: #382B68;
+    width: 100%;
+    margin-left: -11px;
+    padding-right: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.assignmentTitle {
+    font-size: 22pt;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    height: 110px;
+    width: 100%;
+    margin-left: -8px;
+    background-color: #382B68;
+    overflow: hidden;
+}
+
+
+
+.footerLogo {
+    vertical-align: middle;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 30px;
+    height: 40px;
+}
+
+.footerText {
+    color: #B5FFF8;
+    text-align: center;
+    padding-left: 10px;
+    font-family: Futura, sans-serif;
+    font-size: 11pt;
+}
+
+.contentBox1 {
+    width: 450px;
+    background-color: #382B68;
+    margin-left: -8px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    margin-top: 80px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.contentBox2 {
+    width: 500px;
+    background-color: #382B68;
+    margin-left: -8px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    margin-top: 40px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.contentBoxSummary {
+    width: 80%;
+    background-color: #382B68;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 10px;
+    margin-top: 40px;
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+
+.contentText {
+    color: #B5FFF8;
+    font-family: Futura, sans-serif;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    font-weight: bolder;
+}
+
+.assignmentLink {
+    text-decoration: none;
+    color: #B5FFF8;
+    font-family: Futura, sans-serif;
+    font-size: 16pt;
+    font-weight: bold;
+    display: inline-block;
+    padding: 4px;
+}
+
+.assignmentLink:hover {
+    transform: scale(1.2, 1.2);
+    transition-duration: 1s;
+    transform-origin: left;
+}
+
+li {
+    list-style:none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.olList:hover {
+    transform: scale(1.2,1.2);
+    color: #382B68;
+    background-color: #B5FFF8;
+    border: 2px solid #B5FFF8;
+    margin:auto;
+}
+
+li:hover .assignmentDropdownList{
+    color: #382B68;
+}
+
+.assignmentTitleBarMini {
+    background-color: #382B68;
+    width: 100%;
+    margin-left: -11px;
+    padding-right: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.assignmentTitleMini {
+    font-size: 18pt;
+    margin: auto;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+.previousButton {
+    background-color: #382B68 ;
+    color: #B5FFF8;
+    padding: 5px;
+    border: 2px solid  #B5FFF8;
+    font-family: Futura, sans-serif;
+    font-weight:bold;
+    border-radius: 10px;
+}
+
+.previousButton:hover {
+    background-color: #B5FFF8;
+    color: #382B68;
+    padding: 5px;
+    border: 5px solid  #382B68;
+}
+
+.previousDiv {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+
+.assignmentDropdown {
+    display: none;
+    position: absolute;
+    background-color: #382B68;
+    border: 2px solid #B5FFF8;
+    margin-top: 35px;
+}
+
+
+.assignmentDropdownList {
+    color: #B5FFF8;
+    font-family: Futura, sans-serif;
+    font-size: 10pt;
+    font-weight: bolder;
+}
+
+.assignmentDropdownList:hover {
+    
+}
+
+td {
+    background-color:rgba(0, 0, 0, 0);
+}
+
+.dropdownRow {
+    background-color:rgba(0, 0, 0, 0);
+}
+
+.assignmentDrop {
+    display: none;
+    background-color:#382B68;
+    border: 2px solid #B5FFF8;
+}
+
+tbody {
+    background-color:rgba(0, 0, 0, 0);
+}
+
+thead {
+    border: 3px solid #382B68;
+    background-color: #D3FFF9;
+    border-style:groove;
+}
+
+.menuBarRow {
+    margin-top: -5px;
+    
+}
+
+.dropListCenter {
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+
+
+.onlineLearningDrop {
+    display: none;
+    background-color:#382B68;
+    border: 2px solid #B5FFF8;
+}

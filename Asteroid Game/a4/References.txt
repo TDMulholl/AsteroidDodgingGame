@@ -1,0 +1,11 @@
+https://medium.freecodecamp.org/javascript-functions-af6f9186a553
+https://www.geeksforgeeks.org/html5-game-development-infinitely-scrolling-background/
+https://css-tricks.com/snippets/javascript/javascript-keycodes/
+https://www.w3schools.com/js/js_object_definition.asp
+https://javascript.info/class
+http://www.phpied.com/3-ways-to-define-a-javascript-class/
+https://stackoverflow.com/questions/8017541/javascript-canvas-collision-detection
+https://www.w3schools.com/jsref/jsref_push.asp
+https://www.w3schools.com/jsref/met_win_clearinterval.asp
+https://www.w3schools.com/js/js_array_sort.asp
+https://stackoverflow.com/questions/6307514/is-it-possible-to-override-javascripts-tostring-function-to-provide-meaningfu
